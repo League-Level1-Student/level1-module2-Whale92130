@@ -7,12 +7,25 @@
 public class TeaMaker {
 
 	/* Figure out how to make a cup of tea in this runner class, using the other classes below */
+	public static void main(String[] args) {
+	Kettle water = new Kettle();
+	water.getWater();
+	water.boil();
+	Cup cup = new Cup();
+	TeaBag TeaBag = new TeaBag("Mint");
+	cup.makeTea(TeaBag, water.getWater());
 	
-	
-	
+
+	}
 }
 
+class Water {
+	void Water() {
+		
+	}
+}
 class TeaBag {
+	
 
 	public final static String GREEN = "Green";
 	public final static String MINT = "Mint";
