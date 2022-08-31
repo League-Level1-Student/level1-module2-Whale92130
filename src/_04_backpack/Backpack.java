@@ -68,6 +68,8 @@ class Pencil extends Supply {
 	public void write(String writing) {
 		System.out.println(writing);
 	}
+
+	
 }
 
 class Ruler extends Supply {
@@ -79,6 +81,8 @@ class Ruler extends Supply {
 	public void measure() {
 		System.out.println("Now you can measure your mouse!");
 	}
+
+
 }
 
 class Textbook extends Supply {
@@ -90,4 +94,6 @@ class Textbook extends Supply {
 	public void read() {
 		System.out.println("The history of Iceland is long and interesting");
 	}
+
+	
 }
